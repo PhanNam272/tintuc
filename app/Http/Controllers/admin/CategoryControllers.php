@@ -25,7 +25,6 @@ class CategoryControllers extends Controller
  
 
     public function create(){ 
-        
           $htmlOption= $this->getCategories("");
           return view("admin.category.add",compact('htmlOption') );
     }
